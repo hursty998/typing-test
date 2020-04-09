@@ -1,0 +1,66 @@
+head{
+    color: blue;
+}
+.header{
+    padding: 0;
+    margin: 0;
+    height: 90px;
+    background-color: aqua;
+    display: block;
+    border-radius: 8px;
+}
+
+.header img{
+    position: absolute;
+}
+.header h1{
+    position: absolute;
+    display: inline;
+    padding: 18px 0 0 100px;
+    margin: 0 0 0 0;
+}
+.header h2{
+    position: absolute;
+    display: inline;
+    padding: 8px 0 0 270px;
+    font-size: 20px;
+}
+#login-button{
+    position: absolute;
+    display: inline;
+    padding: 10px 5% 0 90%
+}
+
+#text{
+    margin: 6% 0 2% 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+#ul{
+    margin: 6% 0 2% 0;
+    text-align: center;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 28px;
+    
+}
+#ul li{
+    display: inline;
+}
+
+.main .getinp input{
+    position: absolute;
+    margin: 0 0 0 24%;
+    background-color: black;
+    color: white;
+    height: 120px;
+    width: 700px;
+    border-radius: 8px;
+    padding: 0 0 0 10px;
+    font-family: sans-serif;
+    font-size: 130%;
+    
+    
+}
