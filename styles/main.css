@@ -30,6 +30,10 @@ head{
     display: inline;
     padding: 10px 5% 0 90%
 }
+.lvl-btn {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
 
 #text{
     margin: 6% 0 2% 0;
@@ -38,19 +42,23 @@ head{
     font-size: 28px;
 }
 
+
 #ul{
     margin: 6% 0 2% 0;
     text-align: center;
     list-style: none;
     font-family: sans-serif;
     font-size: 28px;
+    overflow: hidden;
+    /*overflow-y: scroll;*/
+    height: 68px;
     
 }
 #ul li{
     display: inline;
 }
 
-.main .getinp input{
+.main .getinp textarea{
     position: absolute;
     margin: 0 0 0 24%;
     background-color: black;
@@ -60,7 +68,7 @@ head{
     border-radius: 8px;
     padding: 0 0 0 10px;
     font-family: sans-serif;
-    font-size: 130%;
+    font-size: 180%;
     
     
 }

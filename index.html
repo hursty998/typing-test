@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,17 +18,27 @@
         
     </div>
     <div class="main">
-        <div class="text">
-            
+        <div class="levels">
+            <input id="but1" class"lvl-btn" type="button" value="Easy" onClick="start('easy')">
+            <input id="but2" class"lvl-btn" type="button" value="Medium" onClick="start('medium')">
+            <input id="but3" class"lvl-btn" type="button" value="Hard" onClick="start('hard')">
+        </div>
+        <div id="textarea" class="text" scontenteditable="true">           
             <ul id="ul"> <!--this will contain the text they need to write-->
             </ul>
         </div>
         <div class="getinp">
-            <input id="text-imp" type="text" name="text input" placeholder="Please type here">
+            <textarea id="text-imp" type="text" name="text input" cols="35" rows="5" value="" placeholder="Please type here"></textarea>
         </div>
         <div >
+            <input id ="restart-btn" type="button" onclick="restart()" value="Restart" />
             <p id="timer">Time left: 60 seconds</p>
         </div>
+    </div>
+    <div class="scores">
+        <p id="speed"></p>
+        <p id="accuracy"></p>
+        <p id="realAccuracy"></p>
     </div>
     <canvas id="canvas"></canvas>
     <script language="javasript" type="text/javascript" src="scripts/main.js"></script>
